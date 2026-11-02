@@ -78,15 +78,12 @@ As a check on substance, Democratic appointees in the extension decide liberally
 more often than Republican appointees. In Carp–Manning's last eight years (2005–2012) the gap
 is 8.5 points.
 
-Two cautions:
+One caution:
 
 1. **About 47% of opinions are coded uncodable**, compared with roughly 9% in the validation
    sample. That is expected: Carp–Manning itself never entered cases without a clear winner or
    a liberal–conservative dimension, so every validation case was codable by construction. The
    `codable_reason` field says why each case was set aside.
-2. **The validation measures how often the coder agrees with human coders on cases the humans
-   chose to code.** How often it codes a case the humans would have left out has not yet been
-   measured. The paper discusses what this means for analysis.
 
 ## Quick start
 
