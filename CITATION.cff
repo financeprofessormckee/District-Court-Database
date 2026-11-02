@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this database, please cite the working paper below and the original Carp-Manning U.S. District Court Database."
+title: "U.S. District Court Database, 2013-2019 Extension"
+version: "0.3.1"
+date-released: "2026-10-31"
+license: CC-BY-4.0
+authors:
+  - family-names: McKee
+    given-names: Eric
+    affiliation: "West Texas A&M University"
+  - family-names: Macy
+    given-names: Anne
+    affiliation: "West Texas A&M University"
+  - family-names: Zhang
+    given-names: Wei
+    affiliation: "West Texas A&M University"
+preferred-citation:
+  type: article
+  title: "Extending the U.S. District Court Database Past 2012 with a Validated Language-Model Coder"
+  authors:
+    - family-names: McKee
+      given-names: Eric
+    - family-names: Macy
+      given-names: Anne
+    - family-names: Zhang
+      given-names: Wei
+  year: 2026
+  notes: "Working paper"
+  # TODO: add the SSRN URL once the paper is posted, e.g.
+  # url: "https://ssrn.com/abstract=XXXXXXX"
+references:
+  - type: database
+    title: "U.S. District Court Database"
+    authors:
+      - family-names: Carp
+        given-names: Robert A.
+      - family-names: Manning
+        given-names: Kenneth L.
+    year: 2016
+    url: "http://districtcourtdatabase.org"

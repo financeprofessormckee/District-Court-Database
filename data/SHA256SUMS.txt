@@ -1,0 +1,2 @@
+09b0ffb6919c5d82486d3c0ff7af0ac8bf4e682c57adfc2af0429aba09ca10ae *district_ai_codes_2013_2019.csv
+348dc1e41c64cb85b7ae235859bb4165f3f89c1851b9f667c0c2825a333a93b2 *district_ai_codes_2013_2019.dta

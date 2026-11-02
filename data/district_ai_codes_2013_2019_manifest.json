@@ -1,0 +1,349 @@
+{
+  "version": "0.3.1",
+  "prepared": "2026-10-31",
+  "source_csv_sha256": "09b0ffb6919c5d82486d3c0ff7af0ac8bf4e682c57adfc2af0429aba09ca10ae",
+  "previous_csv_sha256": "57e67beda79a778058a4367f2665a35ab0376ca710f75d055f7741746ae516f2",
+  "csv_correction": "0.3.1 distinguishes Bush president names in 12474 cells; all other values, columns and row order preserved",
+  "counts_and_checks": {
+    "records": 44275,
+    "columns": 66,
+    "unique_cluster_ids": 44275,
+    "district_records": 43090,
+    "codable_all": 23584,
+    "codable_district": 23027,
+    "directions_all": 19176,
+    "directions_district": 18691,
+    "date_min": "2013-01-02",
+    "date_max": "2019-09-09",
+    "uncodable_with_raw_casetype": 24,
+    "malformed_nonblank_docket_ids_preserved": 719,
+    "changed_mechanical_all": 205,
+    "changed_mechanical_district": 204,
+    "csv_stata_equivalence": "all 66 columns, all 44,275 rows; numeric IDs and values exact; decoded categories, Unicode strings, dates, UTC timestamps and missingness exact",
+    "direction_recomputation": "both direction columns match the current deterministic rule; earlier-rule differences recomputed",
+    "representative_ids": {
+      "uncodable_raw_code": "2680489",
+      "mixed_criminal_current_liberal": "2660559",
+      "party_only_match": "4338866",
+      "unresolved_court": "4377753",
+      "type24_no_direction": "4333285"
+    },
+    "stata_bytes": 36775351,
+    "previous_stata_bytes": 54528137,
+    "stata_size_reduction_percent": 32.56,
+    "stata_storage": {
+      "cluster_id": {
+        "type": "long",
+        "format": "%12.0g"
+      },
+      "case_name": {
+        "type": "strL",
+        "format": "%9s"
+      },
+      "court_sent_to_coder": {
+        "type": "int",
+        "format": "%8.0g"
+      },
+      "date_decided": {
+        "type": "int",
+        "format": "%td"
+      },
+      "codable": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "codable_reason": {
+        "type": "strL",
+        "format": "%9s"
+      },
+      "casetype": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "casetype_alternate": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "disposition": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "prevailing_party": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "moving_party_name": {
+        "type": "strL",
+        "format": "%9s"
+      },
+      "moving_party_description": {
+        "type": "strL",
+        "format": "%9s"
+      },
+      "opposing_party_name": {
+        "type": "strL",
+        "format": "%9s"
+      },
+      "opposing_party_description": {
+        "type": "strL",
+        "format": "%9s"
+      },
+      "focal_role": {
+        "type": "strL",
+        "format": "%9s"
+      },
+      "focal_party": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "focal_party_name": {
+        "type": "strL",
+        "format": "%9s"
+      },
+      "focal_is_movant": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "focal_prevailed": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "focal_reasoning": {
+        "type": "strL",
+        "format": "%9s"
+      },
+      "text_chars_original": {
+        "type": "long",
+        "format": "%12.0g"
+      },
+      "text_chars_sent": {
+        "type": "long",
+        "format": "%12.0g"
+      },
+      "text_excerpted": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "model": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "run_tag": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "prompt_version": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "coded_at_utc": {
+        "type": "double",
+        "format": "%tc"
+      },
+      "ai_casetype": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "ai_category": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "ai_casetype_era": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "reporter": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "volume": {
+        "type": "int",
+        "format": "%8.0g"
+      },
+      "page": {
+        "type": "int",
+        "format": "%8.0g"
+      },
+      "docket_id": {
+        "type": "strL",
+        "format": "%9s"
+      },
+      "court_id": {
+        "type": "int",
+        "format": "%8.0g"
+      },
+      "nature_of_suit": {
+        "type": "int",
+        "format": "%8.0g"
+      },
+      "author_source": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "judge_author_string": {
+        "type": "strL",
+        "format": "%9s"
+      },
+      "judge_match_status": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "judge_match_score": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "cl_person_id": {
+        "type": "int",
+        "format": "%8.0g"
+      },
+      "fjc_jid": {
+        "type": "long",
+        "format": "%12.0g"
+      },
+      "judge_name": {
+        "type": "strL",
+        "format": "%9s"
+      },
+      "judge_type": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "appointing_president": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "appointing_party": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "court_type": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "in_district_analysis": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "court_sent_blank": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "year": {
+        "type": "int",
+        "format": "%8.0g"
+      },
+      "year_incomplete": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "reporter_corrected": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "libcon_mechanical": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "libcon_super_mechanical": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "direction_rule_version": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "fjc_nid": {
+        "type": "long",
+        "format": "%12.0g"
+      },
+      "cm_judge": {
+        "type": "long",
+        "format": "%12.0g"
+      },
+      "cm_casnum": {
+        "type": "long",
+        "format": "%12.0g"
+      },
+      "cm_month": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "cm_circuit": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "cm_state": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "cm_statdist": {
+        "type": "int",
+        "format": "%8.0g"
+      },
+      "cm_appres": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "cm_apyear": {
+        "type": "int",
+        "format": "%8.0g"
+      },
+      "cm_gender": {
+        "type": "byte",
+        "format": "%8.0g"
+      },
+      "cm_race": {
+        "type": "byte",
+        "format": "%8.0g"
+      }
+    },
+    "encoded_categories": 19,
+    "president_encoding": "Distinct George H. W. Bush (41; 3548 rows) and George W. Bush (43; 8926 rows); cluster 7310555 resolved from CourtListener appointment; 115 blank source names remain missing despite a cm_appres",
+    "pdf_pages": 34,
+    "pdf_text_checks": "all 66 variable names present; seven section bookmarks; populated contents",
+    "pdf_engine": "pdflatex",
+    "pdf_source": "codebook/main.tex",
+    "latex_passes": 3,
+    "latex_overfull_boxes": 0,
+    "manual_latex_sources_preserved": true
+  },
+  "input_sha256": {
+    "codebook/build_codebook.py": "b128209c880145adfd1d707513549db0cde0b0a0aec816eec11f200658343ed9",
+    "codebook/category_mappings.json": "852f39fd2925f0ed0bfdb0e404b5de70ceb9390089eb3bd939d71c6bc71ffe70",
+    "codebook/compile_codebook.py": "3bc13b5a6f870bfaf0a3c416d3d231c01af3b4d450afb0e87be17f0c128b62c2",
+    "codebook/generated/metadata.tex": "70817a93bdd55ab21b487b21bdf1294071164d2e115e085a022dab9ccab45642",
+    "codebook/generated/value_labels.tex": "c8c71821ff69cc8595aa1e1405e2db2cbf650b7d5cf90236ee3c2ba8d046b24e",
+    "codebook/latex_support.py": "b33ab8d2060d8898a078576e8690fa9f36f07fc852019612473f8da1e50fae0c",
+    "codebook/main.tex": "553dc26481dee30b3f840c359197d3e4029f73e6f2a25af91f2a706be00763b2",
+    "codebook/sections/01_coverage.tex": "246ea6ed1e3d85c8edb1dbffa0b7f691ec0f69bda005e6a8b6571b0d3a25536e",
+    "codebook/sections/02_construction.tex": "525e0371322e9dbf5a201f4e1a86914aa418871b49fa846654311df6ff68138c",
+    "codebook/sections/03_coding_rules.tex": "5716310fe09a48a47a9729018d534e4d0fe8caeeeb1707c9b03ca946af87b4ba",
+    "codebook/sections/04_judge_linkage.tex": "68037650b8d033417760d70504588a5bd72da64096fc84e61a45b7fe6b3127b6",
+    "codebook/sections/05_variables.tex": "97858290ebb573c9411c84be8d7c9b78fd8770db085889c74eac7b7904619f0c",
+    "codebook/sections/06_value_labels.tex": "4fecd3807d5e193633c75fa6237cfcb5e5e9e8d330c12ed3886caa6f069bca5f",
+    "codebook/sections/07_usage.tex": "082339db3b52ae6c94f62dd2a1a0443e29acb44c557ec29b42983a413481a235",
+    "data/final/district_ai_codes_2013_2019.csv": "09b0ffb6919c5d82486d3c0ff7af0ac8bf4e682c57adfc2af0429aba09ca10ae",
+    "data/raw/carp_manning.dta": "3f3202ba7138d584517af8eb3bddd8ca23407073e3a59422dd2fc015e01891e6",
+    "data/raw/courtlistener_courts.csv.bz2": "d5a7a5aa902cb4cdb1b99eb3e6a160867a77ce4b2401682291081499537ea8be",
+    "data/raw/people-db-people-2026-06-30.csv.bz2": "95ad6df10205bda27cde649d285c381c93dadef9e16a47d8076ffe46b569778a",
+    "data/raw/people-db-positions-2026-06-30.csv.bz2": "b67855ef17125a1bd2b9b88b47e8fa543e603e8bbcca7658c63b1906e4e5f92f",
+    "prompts/v1/focal_roles.json": "de3a4fff57df9ded690e8e6a867f6fbdd318311552bd9774c26e8a5151c48814",
+    "prompts/v1/pass1_system.md": "29ba4c00f7223de0c83c9347af4c6fa074ab5db53a5fbc6d7dd3a6eead09b725",
+    "prompts/v1/pass1_user_template.md": "31e20d15105af71599bdd6278885aaa681ddb8c68eafcde32e897a9a77b81a7e",
+    "prompts/v1/pass2_system.md": "bdf62ee252637d56a4fb077e377e4e3130efd34041e53a97a2ec228c6ba94e59",
+    "prompts/v1/pass2_user_template.md": "329163ddb879df4ea4b36af2d4150177295e55901ce715ced42b4d03ec861461",
+    "prompts/v1/README.md": "a0b68564e2dff7b8dd1235ca5ab94e4fbec417b585d72259709b388ec68c63b4",
+    "scripts/03_validate.py": "42cf5f5dc72363cefbef8482fe26c83977f17dfa8644885a76b30824880752ab",
+    "scripts/09_build_judge_crosswalk.py": "8588e92031f0e39756584c5afeab5cf1a067d15485a900402c24da9802731e9d",
+    "scripts/10_assemble_extension.py": "bc079da03df05a2d5f9a193aae454fc6701827eee27b1d9bcf2400674fa1541e",
+    "scripts/11_build_data_codebook.py": "218fcd5f460621a002d8d79b8abfa21adefe7eafe36f9e4bd4e1e230008bd8c5"
+  },
+  "artifact_sha256": {
+    "data/final/district_ai_codes_2013_2019.csv": "09b0ffb6919c5d82486d3c0ff7af0ac8bf4e682c57adfc2af0429aba09ca10ae",
+    "data/final/district_ai_codes_2013_2019.dta": "348dc1e41c64cb85b7ae235859bb4165f3f89c1851b9f667c0c2825a333a93b2",
+    "data/final/district_ai_codes_2013_2019_dictionary.json": "8de334e263bbba781c9fc78cc404c2241a323314ad80c90738413818e4a50dd6",
+    "codebook/district_court_extension_codebook.md": "1cd760b6566b63bc4a04df220430ba0725725bfa971df2113df556284f2f24b4",
+    "codebook/district_court_extension_codebook.pdf": "7cce96d6f4331588100b315abf3a3050a3b0dabb73d7dc17f557d81ebfdbecd8"
+  },
+  "edition": "Release candidate"
+}
