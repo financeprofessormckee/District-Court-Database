@@ -19,7 +19,7 @@ Current release: **0.3.1** (see [CHANGELOG.md](CHANGELOG.md)).
 Eric McKee, Anne Macy, and Wei Zhang. "Extending the U.S. District Court Database Past 2012
 with a Validated Language-Model Coder." Working paper.
 
-SSRN link: *coming soon.* The paper describes how the data were built and validated. Please
+[SSRN link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7682401): The paper describes how the data were built and validated. Please
 cite it if you use the data; [CITATION.cff](CITATION.cff) has the details, and GitHub's
 "Cite this repository" button reads from it.
 
